@@ -1,0 +1,8 @@
+.pagination {
+    justify-content: flex-end;
+}
+
+.pagination li {
+    padding: 0.8rem;
+    font-size: 23px;
+}

@@ -12,6 +12,7 @@ import Faq from './components/Faq';
 import Regulations from './components/Regulations';
 import Contact from './components/Contact';
 import Modal from './components/Modal';
+import { AnimatedSwitch } from 'react-router-transition';
 
 class App extends Component {
   render() {
@@ -19,6 +20,12 @@ class App extends Component {
       <React.Fragment>
         <Navbar />
         <Switch>
+        <AnimatedSwitch
+          atEnter={{ opacity: 0 }}
+          atLeave={{ opacity: 0 }}
+          atActive={{ opacity: 1 }}
+          className="switch-wrapper"
+        >
           <Route exact path="/" component={ProductList} />
           <Route path="/details" component={Details} />
           <Route path="/faq" component={Faq} />
@@ -26,6 +33,7 @@ class App extends Component {
           <Route path="/contact" component={Contact} />
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
+        </AnimatedSwitch>
         </Switch>
         <Modal />
         <Footer />
