@@ -2,7 +2,7 @@ Mobile Shop
 It is simple mobile shop. You can pick up mobiles to buy and finalize shopping in bucket.
 
 Installation
-To install project you should run 'npm start' command in project directory.
+To install project you should run 'npm install && npm start' command in project directory.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Usage
