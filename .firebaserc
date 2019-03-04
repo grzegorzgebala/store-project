@@ -1,5 +1,6 @@
 {
   "projects": {
-    "store": "store-project-114c2"
+    "store": "store-project-114c2",
+    "default": "store-project-114c2"
   }
 }

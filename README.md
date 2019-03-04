@@ -24,3 +24,4 @@ Open source :)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 https://github.com/grzegorzgebala/store-project.git
+https://store-project-114c2.firebaseapp.com
